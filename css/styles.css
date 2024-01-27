@@ -87,6 +87,7 @@ article aside ul li:hover .count{
   font-weight: bold;
   transition-duration: 3s, 2s;
   transition-property: opacity, padding-right;
+  transition-delay: 2s, 0s;
   padding-right: 0%;
 }
 article aside ul li .count {
