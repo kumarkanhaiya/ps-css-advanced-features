@@ -77,12 +77,21 @@ article aside ul li {
 }
 
 article aside ul li:hover {
+  background: white;
+  color: #529DCB;
+  transition-duration: 0.5s;
 }
 
-article aside ul li:hover .count{  
+article aside ul li:hover .count{ 
+  opacity: 1;
+  font-weight: bold;
+  transition-duration: 3s, 2s;
+  transition-property: opacity, padding-right;
+  padding-right: 0%;
 }
 article aside ul li .count {
   opacity: 0%;
+  padding-right: 50%;
 }
 article aside ul li a {
   text-decoration: none;
@@ -154,6 +163,13 @@ nav > ul > li a {
   text-decoration: none;
   font-weight: bold;
   margin: 0 auto;
+}
+
+nav > ul > li a:hover {
+  background: #529DCB;
+  font-size: 18px;
+  transition-duration: 3s;
+  /* transition-timing-function: linear; */
 }
 
 nav input {
@@ -244,6 +260,7 @@ div.card-back {
 
 div.card.active {
   box-shadow: 5px 5px 15px  #529DC8;
+  transition-duration: 0.75s;
 }
 
 div.card h2 {
