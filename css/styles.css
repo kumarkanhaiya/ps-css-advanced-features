@@ -1,5 +1,5 @@
 html {
-
+  height: 100%;
 }
 
 body {
@@ -7,7 +7,9 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-left: auto;
   margin-right: auto;
-  background-color: #e5e5e5;
+  background: linear-gradient(to top right, #c87d52 -30%, #e5e5e5);
+  height: 100%;
+  background-attachment: fixed;
 }
 
 h5 {
@@ -18,6 +20,19 @@ h5 {
   background-color: #c87d52;
   display: flex;
   justify-content: center;
+  box-shadow: 0px 3px 5px;
+}
+
+img {
+  border-radius: 1%;
+}
+
+.main img {
+  border-radius: 0px;
+  /* height: 377px;
+  width: 377px;
+  object-fit: cover;
+  object-position: right; */
 }
 
 /************
@@ -90,6 +105,7 @@ button {
   color: white;
   font-size: 1rem;
   padding: 10px;
+  border-radius: 5px;
 }
 
 /************
@@ -146,6 +162,7 @@ nav input {
   padding: 14px 12px 12px 12px;
   width: 200px;
   margin-right: 10px;
+  border-radius: 5px;
 }
 
 #main {
@@ -196,6 +213,8 @@ div.card {
   margin-bottom: 50px;
   flex-basis: 30%;
   width: 100%;
+  border-radius: 1%;
+  box-shadow: 5px 5px 15px
 }
 
 div.card-inner {
@@ -230,7 +249,7 @@ div.card h2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   font-size: 1.25rem;
-  color: #c87d52;
+  color: black;
   display: flex;
   justify-content: center;
 }
@@ -249,6 +268,7 @@ div.card a {
 
 div.card img {
   width: 100%;
+  border-radius: 10% 10% 10% 50%;
 }
 
 div.card .image {
